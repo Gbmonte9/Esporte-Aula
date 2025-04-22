@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+@media screen and (max-width: 640px){
+    
+     .navbar {
+        background: #011422;
+    }
+
+    .navbar-brand {
+        color: #FFF7DF;
+        cursor: not-allowed; 
+        text-decoration: none; 
+        pointer-events: none; 
+    }
+
+    .nav-link {
+        color: #FFF7DF;
+        text-decoration: none;
+        font-size: 18px; 
+        transition: color 0.3s, font-size 0.3s; 
+      }
+  
+    .nav-link:hover {
+        color: #fff7dfdc;
+        font-size: 20px; 
+    }
+  
+    .nav-link:focus {
+        font-weight: bold;
+        color: #fff7dfdc;
+    }
+
+
+    /* Main */
+
+    .titulo {
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 300; 
+        color: #FFF7DF;
+        font-size: 36px; 
+        text-align: center; 
+    }
+
+    main {
+        background: url('img/luta8.jpeg') center /cover no-repeat;
+        width: 100%;
+        height: 77vh;
+    }
+    
+    label {
+        color: #FFF7DF; 
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+        font-size: 18px;
+    }
+
+    .form-control{
+        background: #FFF7DF;
+    }
+	
+	.select-custom {
+    	background: #FFF7DF;
+	}
+
+    footer{
+        background-color: #011422;
+        color: #FFF7DF;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        bottom: 0;
+    }
+
+}
+
+@media screen and (min-width: 641px) {
+    
+     .navbar {
+        background: #011422;
+    }
+
+    .navbar-brand {
+        color: #FFF7DF;
+        cursor: not-allowed; 
+        text-decoration: none; 
+        pointer-events: none; 
+    }
+
+    .nav-link {
+        color: #FFF7DF;
+        text-decoration: none;
+        font-size: 18px; 
+        transition: color 0.3s, font-size 0.3s; 
+      }
+  
+    .nav-link:hover {
+        color: #fff7dfdc; 
+        font-size: 20px; 
+    }
+  
+    .nav-link:focus {
+        font-weight: bold;
+        color: #fff7dfdc;
+    }
+
+
+    /* Main */
+
+    .titulo {
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 300; 
+        color: #FFF7DF; 
+        font-size: 36px; 
+        text-align: center; 
+    }
+
+    main {
+        background: url('img/luta6.jpeg') center /cover no-repeat;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    label {
+        color: #FFF7DF; 
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+        font-size: 18px; 
+    }
+
+    .form-control{
+        background: #FFF7DF;
+    }
+
+	.select-custom {
+    	background: #FFF7DF;
+	}
+
+    footer{
+        background-color: #011422; 
+        color: #FFF7DF;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+}
